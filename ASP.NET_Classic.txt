@@ -1,0 +1,62 @@
+<!--
+
+<%@ Page Language="javascript" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Classic ASP</title>
+    <script></script>
+    <style type="text/css">  
+        .auto-style2 {
+            text-align: center;
+        }
+
+        body {
+            height: 210px; 
+            width: 350px;
+            margin: auto;
+        }
+
+        div {
+            background-color: cornflowerblue;
+        }
+
+        #Button2 {
+            width: 250px;
+        }
+        #Button1 {
+            width: 70px;
+        }
+        
+        #Password {
+            border-radius: 40px;
+            width: 245px;
+        }
+        #Username {
+            border-radius: 40px;
+            width: 245px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 class="auto-style2"><u>LIONS-CLUB</u></h1>
+
+    <form action="" method="post" id="form1" runat="server" onsubmit="">
+        <div class="auto-style2">   
+            <p>Username : <input id="Username" type="text"/></p>
+            <p>Password : <input id="Password" type="password"/></p>
+            <p>
+                <input id="Button1" type="button" value="Enter" />
+                <input id="Button2" type="button" value="Clear" />
+            </p>
+            <br />
+        </div>
+    </form>
+
+</body>
+</html>
+
+-->
